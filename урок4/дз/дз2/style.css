@@ -12,6 +12,11 @@ h1 {
 #tabs {
     display: flex;
 }
+
+#tabs2 {
+    display: flex;
+}
+
 .tab-btn {
     width: 100px;
     height: 40px;
@@ -27,6 +32,7 @@ h1 {
     color: #ffffff;
 }
 
+
 #contents {
     max-width: 300px;
     width: 100%;
@@ -39,5 +45,13 @@ h1 {
 }
 
 .content.active {
+    display: block;
+}
+
+.content2 {
+    display: none;
+}
+
+.content2.active {
     display: block;
 }
