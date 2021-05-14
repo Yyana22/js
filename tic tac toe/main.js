@@ -56,5 +56,5 @@ const closeModal = () => {
     location.reload();
 }
 
-overlay.addEventListener('clock', closeModal);
-btnClose.addEventListener('clock', closeModal);
+overlay.addEventListener('click', closeModal);
+btnClose.addEventListener('click', closeModal);
