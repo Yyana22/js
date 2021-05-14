@@ -1,10 +1,10 @@
 const area = document.getElementById('area');
 let move = 0;
 let result = '';
-const contentWrapper = document.getElementsById('content');
-const modalResult = document.getElementsById('modal-result-wrapper');
-const overlay = document.getElementsById('overlay');
-const btnClose = document.getElementsById('btn-close');
+const contentWrapper = document.getElementById('content');
+const modalResult = document.getElementById('modal-result-wrapper');
+const overlay = document.getElementById('overlay');
+const btnClose = document.getElementById('btn-close');
 
 const box = document.getElementById('.box');
 
